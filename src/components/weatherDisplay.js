@@ -1,8 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { WeatherContext } from "../contexts/WeatherContext";
 import sunny from "../images/sun.png";
-import { FiWind, FiCloudRain, FiCloudDrizzle, FiCloud } from "react-icons/fi";
-
+/* eslint-disable */
 const WeatherDisplay = () => {
   const APP_ID = "94b3998b6b7b9d9dbf522ea017c753a2";
   const [query, setQuery] = useContext(WeatherContext);
