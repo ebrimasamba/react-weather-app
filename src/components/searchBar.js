@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { WeatherContext } from "../contexts/WeatherContext";
 
 const SearchBar = () => {
+  // eslint-disable-next-line
   const [query, setQuery] = useContext(WeatherContext);
   const search = useRef();
   const getSearch = () => {
