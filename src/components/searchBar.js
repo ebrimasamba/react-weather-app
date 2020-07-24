@@ -7,7 +7,7 @@ const SearchBar = () => {
   const search = useRef();
   const getSearch = () => {
     setQuery(search.current.value);
-    console.log(query);
+    // console.log(query);
   };
   return (
     <form
